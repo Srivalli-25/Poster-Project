@@ -1,0 +1,10 @@
+name: Poster Upload
+
+on: [push]
+
+jobs:
+  say-success:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Show success message
+        run: echo "Poster Uploaded Successfully"
